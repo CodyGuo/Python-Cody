@@ -1,10 +1,12 @@
 # -*- coding=utf-8 -*-
 import time
-
-'''
+''' 
+    斐波那契数列
     Fibonacci(40) = 102334155
-    计算Fibonacci用时 182.90810322761536 s
+    计算Fibonacci用时 56.781259536743164 s
 '''
+
+
 def fib(n):
     if n < 2:
         return n
@@ -13,7 +15,7 @@ def fib(n):
 
 if __name__ == '__main__':
     start = time.time()
-    n= 40
+    n = 40
     fibN = fib(n)
     end = time.time()
     print('Fibonacci(%d) = %d' % (n, fibN))

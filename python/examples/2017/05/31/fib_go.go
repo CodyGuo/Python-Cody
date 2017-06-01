@@ -1,7 +1,3 @@
-/*
-	Fibonacci(40) = 102334155
-	计算Fibonacci用时 --> 1.7851877s
-*/
 package main
 
 import (
@@ -14,7 +10,10 @@ import (
 
 var ok bool
 
-// 斐波那契数列
+/* 斐波那契数列
+Fibonacci(40) = 102334155
+计算Fibonacci用时 --> 766.5385ms
+*/
 func fib(n int) int {
 	if n < 2 {
 		return n

@@ -8,3 +8,7 @@
     pip install Pillow
     # pymysql 代替 mysql
     pip install pymysql
+
+# git
+    # fatal: no upstream configured for branch 'master'
+    git branch --set-upstream-to=origin/master master
